@@ -1,0 +1,117 @@
+header {
+ background: white;   
+}
+
+body {
+    margin: 0;
+    background-color: #42b0f4;
+    
+}
+
+#change { 
+    background-color: lightgrey;
+    border: solid;
+    border-color: #333;
+    border-radius: 10px;
+    font-family: "orbitron";
+    text-align: "center";
+    padding: 20px;
+    font-size: 3;
+}
+
+#what{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-decoration: "underline";
+}
+
+
+#bears{
+    font-family: "roboto";
+    text-align: center;
+}
+
+img {
+    height:300px;
+    width:300px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+  font-size: 12px;
+  padding: 50px 0;
+  background-color: black; 
+  color: white;
+  margin: 0 auto; 
+  width: 1670px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 50px 0;
+  background-color: black; 
+  color: white;
+  margin: 0 auto; 
+  width: 1530px;
+  margin-top: 500px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+#game { 
+  background-image: url("http://24.media.tumblr.com/d83090791d4a63dc526b8073437d44f4/tumblr_mes4tird5L1rj1a3bo1_250.gif");   
+}
