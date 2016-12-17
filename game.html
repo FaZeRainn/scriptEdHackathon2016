@@ -2,13 +2,39 @@
 <html>
     <head>
         <title>Game</title>
-        <link rel="stylesheet" href="main.css">
-        <script src="app.js"></script>
+        
+          <style>
+             #game {
+            background-image: url("http://24.media.tumblr.com/d83090791d4a63dc526b8073437d44f4/tumblr_mes4tird5L1rj1a3bo1_250.gif");
+            background-repeat: repeat-x;
+            height: 500px;
+           position:relative;
+        }
+        
+        #bear {
+            height: 200px;
+            width: 200px;
+          position: relative; 
+          left: 1300px; 
+          top: 0px;
+        }
+
+        #garbage { 
+         width: 50px; 
+         height: 50px;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+                <script src="app.js"></script>
+        
     </head>
     <body>
         <h1>Save the Polar Bear</h1>
         <div id="game">
-
+          <img src="https://www.goshopeasy.com/products/57813297-CM%20GARBAGE%20BAG%2022x28.jpg" id="garbage">
+          <img src="http://iconizer.net/files/Brilliant/orig/polar_bear.png" id="bear">
         </div>
+
     </body>
 </html>

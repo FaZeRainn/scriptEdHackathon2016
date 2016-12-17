@@ -1,5 +1,8 @@
 header {
- background: white;   
+ background: white;
+ padding-top: 20px;
+ text-align: center;
+ margin
 }
 
 body {
@@ -13,16 +16,9 @@ body {
     border: solid;
     border-color: #333;
     border-radius: 10px;
-    font-family: "orbitron";
-    text-align: "center";
+    font-family: 'Orbitron', sans-serif;
     padding: 20px;
     font-size: 3;
-}
-
-#what{
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    text-decoration: "underline";
 }
 
 
@@ -32,10 +28,13 @@ body {
 }
 
 img {
-    height:300px;
-    width:300px;
-    text-align: center;
+    position: relative;
+    height:400px;
+    width: 600px;
+    float: right;
     border-radius: 15px;
+    right: 10px;
+    border: 2px solid black;
 }
 
 
@@ -112,6 +111,6 @@ footer li img {
   height: 32px;
 }
 
-#game { 
-  background-image: url("http://24.media.tumblr.com/d83090791d4a63dc526b8073437d44f4/tumblr_mes4tird5L1rj1a3bo1_250.gif");   
+h1, h2 {
+font-family:  "orbitron";
 }
