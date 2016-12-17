@@ -1,4 +1,21 @@
+
 $(document).ready(function() {
+    $("#cars").click(function(){
+  $("#fun").attr("src", "http://www.vpcrc.com/images/g11.jpg")
+  $("#fun").css("margin-left", "400px")
+});
+
+$("#poll").click(function(){
+  $("#fun").attr("src", "http://images.indianexpress.com/2015/06/global-warming-l.jpg")
+  $("#fun").css("margin-left", "400px")
+});
+
+$("#mal").click(function(){
+  $("#fun").attr("src","http://sapiencia.eu/wp-content/uploads/2016/08/2cefeb5f5e72c9f38ad557eca1fe019f.jpg")
+  $("#fun").css("margin-left", "400px");
+});
+
+
    var x = 1300;
    
    function moveRight() {

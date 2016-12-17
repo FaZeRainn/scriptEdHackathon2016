@@ -1,116 +1,120 @@
-header {
- background: white;
- padding-top: 20px;
- text-align: center;
- margin
+body{
+ background:#107ECC; 
+ margin: 0; 
 }
 
-body {
-    margin: 0;
-    background-color: #42b0f4;
-    
+header{
+ background: white; 
+ width: 100%; 
+ height: 90px; 4
 }
 
-#change { 
-    background-color: lightgrey;
-    border: solid;
-    border-color: #333;
-    border-radius: 10px;
-    font-family: 'Orbitron', sans-serif;
-    padding: 20px;
-    font-size: 3;
+#change{ 
+  margin-top: 0; 
+  margin-left: 50px; 
+  font-family: 'Sonsie One', cursive;
+  padding-top: 20px; 
 }
 
+nav, li{ 
+  display: inline;  
+  float: right; 
+  margin-top: 8px; 
+  padding-right: 20px; 
+  Font-size: 20px; 
+  font-family: 'Oswald', sans-serif;
 
-#bears{
-    font-family: "roboto";
-    text-align: center;
 }
 
-img {
-    position: relative;
-    height:400px;
-    width: 600px;
-    float: right;
-    border-radius: 15px;
-    right: 10px;
-    border: 2px solid black;
+a {
+  text-decoration: none; 
+  color: black;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-family: arial;
+a:hover{
+  color: lightblue; 
+}
+nav, li: hover{
+ color: lightgreen; 
 }
 
-li {
-    float: left;
+li a: visited{ 
+text-decoration: none; 
+color: black; 
+}
+#what{ 
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'Anton', sans-serif;
+ 
+}
+#how{ 
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'Anton', sans-serif;
+ 
+}
+#ex1{ 
+  text-align:Center;
+  margin-left: 300px; 
+  margin-right: 300px; 
+  font-family: 'Oswald', sans-serif;
+  
+  
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+#polar{
+height: 250px; 
+width: 250px; 
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
 }
 
 footer {
+ margin-bottom: -50px; 
   font-size: 12px;
-  padding: 50px 0;
-  background-color: black; 
-  color: white;
-  margin: 0 auto; 
-  width: 1670px;
+  padding: 40px 0;
+  background-color: black;
+  border-radius:    5px;
+  clear: both;
 }
 
 footer .col-sm-8 {
+  margin: 0; 
   display: flex;
   justify-content: flex-end;
 }
 
 footer ul {
+  margin: 0; 
   list-style: none;
 }
 
 footer li img {
+  margin: 0; 
   width: 32px;
   height: 32px;
 }
 
-footer {
-  font-size: 12px;
-  padding: 50px 0;
-  background-color: black; 
-  color: white;
-  margin: 0 auto; 
-  width: 1530px;
-  margin-top: 500px;
+.images img {
+  padding-bottom: 50px; 
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 100px;
+  width: 200px; 
+  float: left;
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+#cars{
+    margin-left: 460px;
+  margin-bottom: 30px; 
 }
 
-footer ul {
-  list-style: none;
+#fun{
+ margin-left: 100px;
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
-h1, h2 {
-font-family:  "orbitron";
+.row p{
+  color:white;
+  margin-left: 50px;
 }
